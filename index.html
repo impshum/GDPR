@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <style>
+    * {
+      border-radius: 3px;
+      transition: 0.3s;
+    }
+
+    body {
+      background: #222;
+      color: #fefefe;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 320px;
+      height: 320px;
+      margin-top: -160px;
+      margin-left: -160px;
+      background: #111;
+      border: 3px solid rgba(255, 255, 255, 0.7);
+      text-align: center;
+    }
+
+    p {
+      padding: 1.5em;
+      font-size: 1.2em;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 0.8em 1.5em;
+      color: #ddd;
+    }
+
+    a.a {
+      background: darkgreen;
+    }
+
+    a.a:before {
+      content: "ACCEPT";
+    }
+
+    a.a:hover:before {
+      content: "DECLINE";
+    }
+
+    a.b {
+      background: darkred;
+    }
+
+    a.b:hover {
+      background: transparent;
+      color: transparent;
+      cursor: default;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="centered">
+    <p>We collect as much data as possible and sell all of it to 3rd parties for as much profit as possible whist sending you endless amounts of spam with adverts all over them.</p>
+    <a class="a" href="https://codepen.io/impshum/pen/OZeKax"></a>
+    <a class="b">DECLINE</a>
+  </div>
+</body>
+
+</html>
